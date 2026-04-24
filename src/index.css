@@ -1,0 +1,175 @@
+body {
+  background-color: black !important;
+  overflow-x: hidden !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+#nav {
+  position: absolute;
+  top: 30px;
+  /* transform: translate(-); */
+}
+
+.nav-item {
+  /* background-color:white; */
+  color: white;
+  font-size: 20px;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #b7985d !important;
+  background-repeat: no-repeat;
+  height: 5px;
+}
+
+#hed {
+  background-color: #160908;
+}
+
+.an {
+  color: aliceblue;
+  font-size: 20px;
+  justify-content: space-between;
+  justify-content: center;
+  margin-left: 55px;
+}
+
+.so {
+  text-align: center;
+  display: 5;
+  font-size: 55px;
+  color: white;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: large;
+}
+
+p {
+  text-align: start;
+  justify-content: center;
+}
+
+.leafRight {
+  height: 250px;
+  width: 320px;
+  position: absolute;
+  z-index: 999;
+  top: 78%;
+  right: 0px;
+  animation: rightScroll 6s ease-in-out infinite;
+}
+@keyframes rightScroll {
+  0%{}
+  100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(50px)  translateX(200px);
+  }
+}
+
+.leafleft {
+  height: 200px;
+  width: 320px;
+  position: absolute;
+  z-index: 999;
+  top: 5%;
+  left: 0px;
+  animation: leftScroll 6s ease-in-out infinite;
+}
+@keyframes leftScroll {
+  0%{}
+  50%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(30px)  translateX(100px);
+  }
+}
+
+#awards {
+  background-image: url("../assets/images/patern-dark-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 320px;
+}
+
+#awards .swiper-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+#resimg {
+  background-image: url(assets/images/Mobile-Reservations.png);
+  height: 600px;
+  width: 100%;
+  position: relative;
+  background-size: 100%;
+  background-position: center;
+  z-index: 100;
+}
+#ALaCarte {
+  background-image: url(assets/images/Mobile-A-La-Carte.png);
+  min-height: 450px;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+#PrivateDining{
+background-image: url(assets/images/Mobile-Private-Dining.png);
+ min-height: 450px;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#SonoSakuru{
+  background-image: url(assets/images/Mobile-Sono-Sakuru.png);
+ min-height: 450px;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Events{
+  background-image: url(assets/images/Mobile-Events.png);
+   min-height: 450px;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#GiftCard{
+  background-image: url(assets/images/Mobile-Gift-Cards.png);
+ min-height: 450px;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#Contact{
+  background-image: url(assets/images/Mobile-Contact.png);
+  min-height: 1050px;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
